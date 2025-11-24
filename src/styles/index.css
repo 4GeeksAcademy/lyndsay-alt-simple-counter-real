@@ -1,11 +1,74 @@
-/* 
+/* Seconds Counter */
+.counter-page {
+  margin-top: 40px;
+  text-align: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.big-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: black;
+  padding: 20px 35px;
+  border-radius: 10px;
+}
 
-*/
+.digit {
+  background: #222;
+  padding: 15px;
+  width: 44px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.digit.icon {
+  background: transparent;
+  font-size: 2.2rem;
+}
+
+.info-row {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controls button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+.forms {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.small-form {
+  padding: 10px;
+  background: #181818;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.small-form input {
+  padding: 6px;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: white;
+}
